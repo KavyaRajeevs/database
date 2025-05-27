@@ -8,5 +8,5 @@ import { NavbarComponent } from './layout/navbar/navbar.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'database';
+  title = 'Fakestore';
 }
