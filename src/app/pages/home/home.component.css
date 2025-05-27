@@ -43,28 +43,13 @@
         font-size: 1em;
     }
 }
-.products {
-    padding: 20px; /* Add some space around the entire product section */
-    margin: 0 auto; /* Center the section on the page */
-    max-width: 1200px; /* Limit the maximum width for better readability on large screens */
-}
-
 .products h2 {
-    text-align: center; /* Center the "Products" heading */
-    font-size: 2.5em; /* Make the heading larger */
-    color: #333; /* Dark gray color for the heading */
-    margin-bottom: 30px; /* Space below the heading */
-    position: relative; /* Needed for the pseudo-element underline */
-}
-
-.products h2::after {
-    content: ''; /* Create an underline effect */
-    display: block;
-    width: 60px; /* Width of the underline */
-    height: 4px; /* Thickness of the underline */
-    background-color: #007bff; /* Blue color for the underline */
-    margin: 10px auto 0; /* Center the underline below the heading */
-    border-radius: 2px; /* Slightly rounded corners for the underline */
+    font-size: 2.5em;
+    color: #333;
+    margin: 30px 0 20px 0;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
 /* Product Row / Grid Styling */
@@ -102,21 +87,4 @@
         font-size: 1.8em; /* Even smaller heading on mobile */
         margin-bottom: 15px;
     }
-}
-
-/* Styling for app-card (assuming it's a card component) */
-/* This is a placeholder; you'll style app-card internally or here if it's a simple component */
-app-card {
-    /* Basic card styling */
-    border: 1px solid #ddd; /* Light gray border */
-    border-radius: 8px; /* Rounded corners */
-    overflow: hidden; /* Ensures content stays within rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth hover effects */
-    background-color: #fff; /* White background */
-}
-
-app-card:hover {
-    transform: translateY(-5px); /* Lift card on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
 }

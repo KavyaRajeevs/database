@@ -1,5 +1,5 @@
 nav {
-    background-color: #222;
+    background-color: #180e53;
     padding: 0.5rem 1.5rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
@@ -23,6 +23,6 @@ nav li {
 }
 
 nav li:hover {
-    background: #444;
-    color: #ffd700;
+    background: #b3e7ff;
+    color: #0a0035;
 }

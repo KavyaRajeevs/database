@@ -18,5 +18,8 @@ export class ApiService {
   getCategories() {
     return this.http.get('https://fakestoreapi.com/products/categories');
   }
+  getCategoryProducts(categoryName: string) {
+    return this.http.get(`https://fakestoreapi.com/products/category/${categoryName}`);
+  }
 
 }
